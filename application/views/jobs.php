@@ -8,7 +8,7 @@
 
 <?php foreach($records as $row):?>
 <h1><?php echo $row->title ?></h1>
-<p><?php echo $row->jobdetails ?></p>
+<p><?php echo $row->job_details ?></p>
 
 
 <?php endforeach; ?>
